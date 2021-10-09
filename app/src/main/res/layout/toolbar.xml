@@ -8,4 +8,24 @@
   android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
   app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
+  <ImageButton
+    android:id="@+id/menu_btn"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:adjustViewBounds="true"
+    android:backgroundTint="@color/chorale_400"
+    android:contentDescription="MENU_BTN"
+    android:scaleType="fitCenter"
+    android:scaleX="3"
+    android:scaleY="3"
+    android:src="@drawable/hamburgericon" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="맘스잇(Mom's Eat)"
+    android:textSize="23dp"
+    android:layout_marginLeft="50dp"
+    android:textStyle="bold"/>
+
 </androidx.appcompat.widget.Toolbar>

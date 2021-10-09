@@ -7,8 +7,8 @@
   tools:context=".MainActivity">
 
   <include
-    layout="@layout/toolbar"
-    android:id="@+id/toolbar" />
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar" />
 
   <!--파일 생성을 하거나 이름을 지을 때, 모두가 알아볼 수 있게 직관적이어야 해!-->
   <!--예를 들어, 메뉴바의 추가적인 레이아웃 파일을 만든다면, menu_bar 같이!-->
@@ -33,6 +33,20 @@
   그 후, res/font/font.xml 에 들어가 애칭과 함께 추가해보자!
   android:fontFamily="@font/elice_bold"
   -->
+
+  <!--res/anim 파일 속 xml들은 애니메이션을 처리해주는 애들이야!
+  나는 화면 전환에 썼어!-->
+
+  <!--subactivity_main 파일은 메뉴 레이아웃이야! 그리고 여기의 동작은들
+  SubActivity에 있어!-->
+
+  <!--toolbar 파일은 화면의 맨 위를 차지하는 바 레이아웃이야
+  새로운 화면에서 필요할 때 불러쓰자!
+
+  <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar" />
+   -->
 
   <!--내 글을 모두 봤다면 설명하는 주석들(한글)은 지워줘!-->
 
@@ -61,13 +75,13 @@
 
   <TextView
     android:id="@+id/textView2"
-    android:fontFamily="@font/elice_bold"
     android:layout_width="266dp"
     android:layout_height="22dp"
+    android:layout_gravity="center"
+
+    android:fontFamily="@font/elice_bold"
 
     android:text="Mom's Eat"
-
-    android:layout_gravity="center"
     android:textAlignment="center"
 
     android:textSize="20dp"
@@ -98,6 +112,7 @@
     app:layout_constraintVertical_bias="0.027"
     app:queryBackground="@drawable/border_layout"
     app:queryHint="검색어를 입력하세요." />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
