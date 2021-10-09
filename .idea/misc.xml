@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/activity_main.xml" value="0.157548125633232" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/border_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/font/font.xml" value="0.15833333333333333" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/toolbar.xml" value="0.25" />
       </map>
     </option>
   </component>

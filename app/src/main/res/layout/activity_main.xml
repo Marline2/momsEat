@@ -6,13 +6,98 @@
   android:layout_height="match_parent"
   tools:context=".MainActivity">
 
+  <include
+    layout="@layout/toolbar"
+    android:id="@+id/toolbar" />
+
+  <!--파일 생성을 하거나 이름을 지을 때, 모두가 알아볼 수 있게 직관적이어야 해!-->
+  <!--예를 들어, 메뉴바의 추가적인 레이아웃 파일을 만든다면, menu_bar 같이!-->
+  <!--물론 모든 요소들의 이름은 꼭 영어여야해!-->
+
+  <!--둥근 모서리 레이아웃을 불러내보자!
+  android:background="@drawable/border_layout"
+
+  그 밖에 자주 쓰일 것 같은 레이아웃은
+  res/drawable 에 파일을 추가하여 만들어보자!-->
+
+  <!--자주 사용하는 색상들에게 이름을 줘서 편하게 불러 사용해보자!
+   res/values/colors.xml 에 가서 추가해보자!
+
+  그리고 화면 구성하는 xml에 온 후, "@color/chorale_400" 식으로 불러보자!
+  -->
+
+  <!--폰트를 바꿔보자!(개인적으로 이미 다운한 alice 글꼴을 사용하면 좋겠어!)
+  res/font 파일 안에 원하는 폰트를 다운받아 넣자!(저작권 문제로 프리소스여야 한다!)
+  그리고 절대로 폰트 이름에 대문자가 들어가면 안된다!
+
+  그 후, res/font/font.xml 에 들어가 애칭과 함께 추가해보자!
+  android:fontFamily="@font/elice_bold"
+  -->
+
+  <!--내 글을 모두 봤다면 설명하는 주석들(한글)은 지워줘!-->
+
+  <!--MAIN PAGE-->
   <TextView
-    android:layout_width="wrap_content"
+    android:id="@+id/textView"
+    android:layout_width="0dp"
     android:layout_height="wrap_content"
-    android:text="Hello World!"
+    android:layout_gravity="center"
+
+    android:layout_marginTop="22dp"
+    android:fontFamily="@font/elice_bold"
+
+    android:text="맘스잇"
+    android:textAlignment="center"
+
+    android:textSize="60dp"
     app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/textView2"
+    app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+    android:id="@+id/textView2"
+    android:fontFamily="@font/elice_bold"
+    android:layout_width="266dp"
+    android:layout_height="22dp"
+
+    android:text="Mom's Eat"
+
+    android:layout_gravity="center"
+    android:textAlignment="center"
+
+    android:textSize="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.368" />
+
+  <androidx.appcompat.widget.SearchView
+    android:id="@+id/searchView"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginTop="17dp"
+
+    android:padding="5dp"
+    app:iconifiedByDefault="false"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+
+    app:layout_constraintHorizontal_bias="0.342"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView"
+    app:layout_constraintVertical_bias="0.027"
+    app:queryBackground="@drawable/border_layout"
+    app:queryHint="검색어를 입력하세요." />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
