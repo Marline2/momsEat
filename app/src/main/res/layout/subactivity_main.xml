@@ -23,6 +23,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toTopOf="parent" />
 
+  <!--MENU.TEXT-->
   <TextView
     android:id="@+id/textView"
     android:layout_width="99dp"
@@ -34,13 +35,13 @@
     android:textSize="38dp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.076"
+    app:layout_constraintHorizontal_bias="0.022"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="0.035" />
-  <!--MENU.TEXT-->
+
   <View
     android:id="@+id/view2"
     android:layout_width="match_parent"
@@ -64,9 +65,10 @@
     android:layout_marginTop="24dp"
     android:layout_marginEnd="317dp"
     android:layout_marginRight="317dp"
-    android:text="곡류"
+    android:text="육류 &amp; 생선류"
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.045"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -75,15 +77,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginStart="52dp"
+    android:layout_marginStart="37dp"
 
-    android:layout_marginLeft="52dp"
-    android:layout_marginTop="12dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="16dp"
     android:layout_marginEnd="317dp"
     android:layout_marginRight="317dp"
-    android:text="육류"
+    android:text="채소"
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.733"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -93,12 +96,12 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
 
-    android:layout_marginStart="52dp"
-    android:layout_marginLeft="52dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginLeft="50dp"
     android:layout_marginTop="12dp"
     android:layout_marginEnd="303dp"
     android:layout_marginRight="303dp"
-    android:text="생선류"
+    android:text="차 &amp; 음료"
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.0"
@@ -111,15 +114,15 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
 
-    android:layout_marginStart="52dp"
-    android:layout_marginLeft="52dp"
+    android:layout_marginStart="37dp"
+    android:layout_marginLeft="37dp"
     android:layout_marginTop="12dp"
     android:layout_marginEnd="303dp"
     android:layout_marginRight="303dp"
-    android:text="유제품"
+    android:text="과일"
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintHorizontal_bias="0.448"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -129,13 +132,13 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
 
-    android:layout_marginStart="52dp"
-    android:layout_marginLeft="52dp"
+    android:layout_marginStart="37dp"
+    android:layout_marginLeft="37dp"
     android:layout_marginTop="12dp"
-    android:text="차 &amp; 음료"
+    android:text="기타"
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintHorizontal_bias="0.033"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -144,15 +147,18 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    app:layout_constraintGuide_begin="41dp" />
+    app:layout_constraintGuide_begin="224dp" />
 
   <!--HEADER.FAVBTN-->
+
+  <!--HEADER.HATEBTN-->
+
   <Button
     android:id="@+id/fav1"
     android:layout_width="50dp"
     android:layout_height="37dp"
-    android:layout_marginStart="128dp"
-    android:layout_marginLeft="128dp"
+    android:layout_marginStart="45dp"
+    android:layout_marginLeft="45dp"
     android:layout_marginTop="12dp"
     android:background="#00ff0000"
     android:backgroundTint="#00000000"
@@ -166,9 +172,9 @@
     android:id="@+id/button3"
     android:layout_width="50dp"
     android:layout_height="37dp"
-    android:layout_marginStart="128dp"
-    android:layout_marginLeft="128dp"
-    android:layout_marginTop="5dp"
+    android:layout_marginStart="134dp"
+    android:layout_marginLeft="134dp"
+    android:layout_marginTop="8dp"
     android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="♥"
@@ -181,29 +187,14 @@
     android:id="@+id/button4"
     android:layout_width="50dp"
     android:layout_height="37dp"
-    android:layout_marginStart="107dp"
-    android:layout_marginLeft="107dp"
-    android:layout_marginTop="5dp"
+    android:layout_marginStart="132dp"
+    android:layout_marginLeft="132dp"
+    android:layout_marginTop="44dp"
     android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="♥"
     android:textSize="13dp"
     app:layout_constraintStart_toEndOf="@+id/textView9"
-    app:layout_constraintTop_toBottomOf="@+id/button5"
-    tools:ignore="TouchTargetSizeCheck" />
-
-  <Button
-    android:id="@+id/button5"
-    android:layout_width="50dp"
-    android:layout_height="37dp"
-    android:layout_marginStart="107dp"
-    android:layout_marginLeft="107dp"
-    android:layout_marginTop="4dp"
-    android:background="#00ff0000"
-    android:backgroundTint="#00000000"
-    android:text="♥"
-    android:textSize="13dp"
-    app:layout_constraintStart_toEndOf="@+id/textView5"
     app:layout_constraintTop_toBottomOf="@+id/button3"
     tools:ignore="TouchTargetSizeCheck" />
 
@@ -211,9 +202,9 @@
     android:id="@+id/button6"
     android:layout_width="50dp"
     android:layout_height="37dp"
-    android:layout_marginStart="81dp"
-    android:layout_marginLeft="81dp"
-    android:layout_marginTop="5dp"
+    android:layout_marginStart="134dp"
+    android:layout_marginLeft="134dp"
+    android:layout_marginTop="12dp"
     android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="♥"
@@ -222,15 +213,15 @@
     app:layout_constraintStart_toEndOf="@+id/textView6"
     app:layout_constraintTop_toBottomOf="@+id/button4"
     tools:ignore="TouchTargetSizeCheck" />
-  <!--HEADER.HATEBTN-->
+
   <Button
     android:id="@+id/button7"
     android:layout_width="47dp"
     android:layout_height="43dp"
-    android:layout_marginTop="6dp"
+    android:layout_marginTop="8dp"
     android:layout_marginEnd="60dp"
-    android:background="#00ff0000"
     android:layout_marginRight="60dp"
+    android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="X"
     android:textColor="@color/black"
@@ -240,33 +231,19 @@
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button8"
-    android:layout_width="47dp"
-    android:layout_height="43dp"
-    android:layout_marginEnd="60dp"
-    android:layout_marginRight="60dp"
-    android:backgroundTint="#00000000"
-    android:text="X"
-    android:textColor="@color/black"
-    android:textSize="18dp"
-    android:background="#00ff0000"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button7"
-    tools:ignore="TouchTargetSizeCheck" />
-
-  <Button
     android:id="@+id/button9"
     android:layout_width="47dp"
     android:layout_height="43dp"
+    android:layout_marginTop="40dp"
     android:layout_marginEnd="60dp"
     android:layout_marginRight="60dp"
+    android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="X"
     android:textColor="@color/black"
-    android:background="#00ff0000"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button8"
+    app:layout_constraintTop_toBottomOf="@+id/button7"
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
@@ -284,22 +261,23 @@
     app:layout_constraintTop_toBottomOf="@+id/button9"
     tools:ignore="TouchTargetSizeCheck" />
 
+  <!--SEARCH_RANK-->
   <Button
     android:id="@+id/button11"
     android:layout_width="47dp"
     android:layout_height="43dp"
+    android:layout_marginTop="4dp"
     android:layout_marginEnd="60dp"
     android:layout_marginRight="60dp"
+    android:background="#00ff0000"
     android:backgroundTint="#00000000"
     android:text="X"
     android:textColor="@color/black"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    android:background="#00ff0000"
     app:layout_constraintTop_toBottomOf="@+id/button10"
     tools:ignore="TouchTargetSizeCheck" />
 
-  <!--SEARCH_RANK-->
   <View
     android:id="@+id/view"
     android:layout_width="match_parent"
@@ -319,13 +297,159 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginTop="24dp"
+    android:layout_marginTop="12dp"
     android:fontFamily="@font/elice_regular"
-    android:text="자주 검색된 음식"
+    android:text="Tips."
     android:textSize="23dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.161"
+    app:layout_constraintHorizontal_bias="0.062"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/view" />
+
+  <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="26dp"
+    android:layout_marginRight="26dp"
+    app:layout_constraintBottom_toTopOf="@+id/button4"
+    app:layout_constraintEnd_toStartOf="@+id/button9"
+    app:layout_constraintTop_toBottomOf="@+id/button3"
+    app:layout_constraintVertical_bias="0.428"
+    app:srcCompat="@drawable/drinkimg" />
+
+  <ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="52dp"
+    android:layout_marginRight="52dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toTopOf="@+id/button9"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button7"
+    app:layout_constraintVertical_bias="0.95"
+    app:srcCompat="@drawable/vegimg" />
+
+  <TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="                         (팥, 녹두, 알로에, 냉면 등)은 \n소화기능을 약하게 만들고,\n 자궁을 차게 만들어요!"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.647"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+  <TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="성질이 찬 음식"
+    android:textColor="#FF0000"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.183"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+  <TextView
+    android:id="@+id/textVie8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="                        처럼 \n방부제나 화학물질이 들어있으면\n 과체중과 인신성 당뇨를 유발해요!"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.347"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+  <TextView
+    android:id="@+id/textView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="인스턴트 음식"
+    android:textColor="#FF0000"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.18"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+  <TextView
+    android:id="@+id/textView12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="맵고 짠 음식"
+    android:textColor="#FF0000"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.177"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textVie8" />
+
+  <TextView
+    android:id="@+id/textVie9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="28dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="                      같이 지나치게 자극적이면 \n 부종과 고혈압을 유발해요!"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.451"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textVie8" />
+
+  <ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="36dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView8"
+    app:srcCompat="@drawable/coldimg" />
+
+  <ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="36dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="80dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView6"
+    app:srcCompat="@drawable/hotimg" />
+
+  <ImageView
+    android:id="@+id/imageView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="36dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="80dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView4"
+    app:srcCompat="@drawable/instantimg" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

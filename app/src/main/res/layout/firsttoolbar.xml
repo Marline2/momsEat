@@ -23,7 +23,7 @@
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="곡류 (♥)"
+    android:text="육류 &amp; 생선류 (♥)"
     android:textSize="23dp"
     android:layout_marginLeft="50dp"
     android:textStyle="bold"/>
