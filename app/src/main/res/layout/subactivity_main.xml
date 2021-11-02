@@ -147,7 +147,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    app:layout_constraintGuide_begin="224dp" />
+    app:layout_constraintGuide_begin="870dp" />
 
   <!--HEADER.FAVBTN-->
 
@@ -169,7 +169,7 @@
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button3"
+    android:id="@+id/fav2"
     android:layout_width="50dp"
     android:layout_height="37dp"
     android:layout_marginStart="134dp"
@@ -184,7 +184,7 @@
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button4"
+    android:id="@+id/fav3"
     android:layout_width="50dp"
     android:layout_height="37dp"
     android:layout_marginStart="132dp"
@@ -195,11 +195,11 @@
     android:text="♥"
     android:textSize="13dp"
     app:layout_constraintStart_toEndOf="@+id/textView9"
-    app:layout_constraintTop_toBottomOf="@+id/button3"
+    app:layout_constraintTop_toBottomOf="@+id/fav2"
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button6"
+    android:id="@+id/fav4"
     android:layout_width="50dp"
     android:layout_height="37dp"
     android:layout_marginStart="134dp"
@@ -211,11 +211,11 @@
     android:textSize="13dp"
 
     app:layout_constraintStart_toEndOf="@+id/textView6"
-    app:layout_constraintTop_toBottomOf="@+id/button4"
+    app:layout_constraintTop_toBottomOf="@+id/fav3"
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button7"
+    android:id="@+id/hat1"
     android:layout_width="47dp"
     android:layout_height="43dp"
     android:layout_marginTop="8dp"
@@ -231,7 +231,7 @@
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button9"
+    android:id="@+id/hat2"
     android:layout_width="47dp"
     android:layout_height="43dp"
     android:layout_marginTop="40dp"
@@ -243,11 +243,11 @@
     android:textColor="@color/black"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button7"
+    app:layout_constraintTop_toBottomOf="@+id/hat1"
     tools:ignore="TouchTargetSizeCheck" />
 
   <Button
-    android:id="@+id/button10"
+    android:id="@+id/hat3"
     android:layout_width="47dp"
     android:layout_height="43dp"
     android:layout_marginEnd="60dp"
@@ -258,12 +258,11 @@
     android:textColor="@color/black"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button9"
+    app:layout_constraintTop_toBottomOf="@+id/hat2"
     tools:ignore="TouchTargetSizeCheck" />
 
-  <!--SEARCH_RANK-->
   <Button
-    android:id="@+id/button11"
+    android:id="@+id/hat4"
     android:layout_width="47dp"
     android:layout_height="43dp"
     android:layout_marginTop="4dp"
@@ -275,7 +274,7 @@
     android:textColor="@color/black"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button10"
+    app:layout_constraintTop_toBottomOf="@+id/hat3"
     tools:ignore="TouchTargetSizeCheck" />
 
   <View
@@ -311,10 +310,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginEnd="26dp"
-    android:layout_marginRight="26dp"
-    app:layout_constraintBottom_toTopOf="@+id/button4"
-    app:layout_constraintEnd_toStartOf="@+id/button9"
-    app:layout_constraintTop_toBottomOf="@+id/button3"
+    app:layout_constraintBottom_toTopOf="@+id/fav3"
+    app:layout_constraintEnd_toStartOf="@+id/hat3"
+    app:layout_constraintTop_toBottomOf="@+id/fav2"
     app:layout_constraintVertical_bias="0.428"
     app:srcCompat="@drawable/drinkimg" />
 
@@ -325,9 +323,9 @@
     android:layout_marginEnd="52dp"
     android:layout_marginRight="52dp"
     android:layout_marginBottom="8dp"
-    app:layout_constraintBottom_toTopOf="@+id/button9"
+    app:layout_constraintBottom_toTopOf="@+id/hat2"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/button7"
+    app:layout_constraintTop_toBottomOf="@+id/hat1"
     app:layout_constraintVertical_bias="0.95"
     app:srcCompat="@drawable/vegimg" />
 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chorale_400"
+    android:layout_marginBottom="55dp"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageButton
+      android:id="@+id/menu_btn"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:adjustViewBounds="true"
+      android:backgroundTint="@color/chorale_400"
+      android:contentDescription="MENU_BTN"
+      android:scaleType="fitCenter"
+      android:scaleX="3"
+      android:scaleY="3"
+      android:src="@drawable/hamburgericon" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:text="채소 (♥)"
+      android:textSize="23dp"
+      android:textStyle="bold" />
+
+  </androidx.appcompat.widget.Toolbar>
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"
+    tools:ignore="SpeakableTextPresentCheck">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+    <Button
+      android:id="@+id/sweetpotato"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/sweetpotato1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="고구마"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+    <Button
+      android:id="@+id/sea"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/sea1"
+      android:paddingRight="220dip"
+      android:scaleType="fitCenter"
+      android:text="미역"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/broco"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/broco1"
+      android:paddingRight="178dip"
+      android:scaleType="fitCenter"
+      android:text="브로콜리"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/chgum"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/chgum1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="시금치"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/abo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/abo1"
+      android:paddingRight="178dip"
+      android:scaleType="fitCenter"
+      android:text="아보카도"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/gun"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/gun1"
+      android:paddingRight="220dip"
+      android:scaleType="fitCenter"
+      android:text="연근"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/toma"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/toma1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="토마토"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+  </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

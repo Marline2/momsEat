@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
-  <include
+
+  <androidx.appcompat.widget.Toolbar
     android:id="@+id/toolbar"
-    layout="@layout/firsttoolbar" />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chorale_400"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageButton
+      android:id="@+id/menu_btn"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:adjustViewBounds="true"
+      android:backgroundTint="@color/chorale_400"
+      android:contentDescription="MENU_BTN"
+      android:scaleType="fitCenter"
+      android:scaleX="3"
+      android:scaleY="3"
+      android:src="@drawable/hamburgericon" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:text="육류 &amp; 생선류 (♥)"
+      android:textSize="23dp"
+      android:textStyle="bold" />
+
+  </androidx.appcompat.widget.Toolbar>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+    <Button
+      android:id="@+id/egg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/egg1"
+      android:paddingRight="220dip"
+      android:scaleType="fitCenter"
+      android:text="계란"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="40dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+    ></Button>
+    <Button
+      android:id="@+id/meat"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/meat1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="소고기"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+  </LinearLayout>
+
+  <View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginBottom="132dp"
+    android:background="@color/gray"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageView
+    android:id="@+id/imageView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.099"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/textView7"
+    app:srcCompat="@drawable/instantimg" />
+
+  <TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="24dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="                      (회, 조개류, 날달걀 등)은 \n        식중독이나 장염에 대한 염려가 있으니\n        피해주세요!"
+    android:textSize="18dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.402"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/view" />
+
+  <TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="52dp"
+    android:fontFamily="@font/elice_regular"
+    android:text="날 음식"
+    android:textColor="#FF0000"
+    android:textSize="18dp"
+    app:layout_constraintBottom_toBottomOf="@+id/textView7"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.201"
+    app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,20 +16,17 @@
 
   <!--둥근 모서리 레이아웃을 불러내보자!
   android:background="@drawable/border_layout"
-
   그 밖에 자주 쓰일 것 같은 레이아웃은
   res/drawable 에 파일을 추가하여 만들어보자!-->
 
   <!--자주 사용하는 색상들에게 이름을 줘서 편하게 불러 사용해보자!
    res/values/colors.xml 에 가서 추가해보자!
-
   그리고 화면 구성하는 xml에 온 후, "@color/chorale_400" 식으로 불러보자!
   -->
 
   <!--폰트를 바꿔보자!(개인적으로 이미 다운한 alice 글꼴을 사용하면 좋겠어!)
   res/font 파일 안에 원하는 폰트를 다운받아 넣자!(저작권 문제로 프리소스여야 한다!)
   그리고 절대로 폰트 이름에 대문자가 들어가면 안된다!
-
   그 후, res/font/font.xml 에 들어가 애칭과 함께 추가해보자!
   android:fontFamily="@font/elice_bold"
   -->
@@ -42,7 +39,6 @@
 
   <!--toolbar 파일은 화면의 맨 위를 차지하는 바 레이아웃이야
   새로운 화면에서 필요할 때 불러쓰자!
-
   <include
     android:id="@+id/toolbar"
     layout="@layout/toolbar" />

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chorale_400"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageButton
+      android:id="@+id/menu_btn"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:adjustViewBounds="true"
+      android:backgroundTint="@color/chorale_400"
+      android:contentDescription="MENU_BTN"
+      android:scaleType="fitCenter"
+      android:scaleX="3"
+      android:scaleY="3"
+      android:src="@drawable/hamburgericon" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:text="기타 ( X )"
+      android:textSize="23dp"
+      android:textStyle="bold" />
+
+  </androidx.appcompat.widget.Toolbar>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+    <Button
+      android:id="@+id/etcpill"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/etcpill1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="진통제"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+    <Button
+      android:id="@+id/cookie"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/cookie1"
+      android:paddingRight="170dip"
+      android:scaleType="fitCenter"
+      android:text="초코 쿠키"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/choco"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/choco1"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="초콜렛"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/etcice"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/etcice1"
+      android:paddingRight="88dip"
+      android:scaleType="fitCenter"
+      android:text="커피맛 아이스크림"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

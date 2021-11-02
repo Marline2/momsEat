@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_marginBottom="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/chorale_400"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageButton
+      android:id="@+id/menu_btn"
+      android:layout_width="35dp"
+      android:layout_height="35dp"
+      android:adjustViewBounds="true"
+      android:backgroundTint="@color/chorale_400"
+      android:contentDescription="MENU_BTN"
+      android:scaleType="fitCenter"
+      android:scaleX="3"
+      android:scaleY="3"
+      android:src="@drawable/hamburgericon" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:text="차 &amp; 음료 ( X )"
+      android:textSize="23dp"
+      android:textStyle="bold" />
+
+  </androidx.appcompat.widget.Toolbar>
+
+  <ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="20dp"
+      android:orientation="vertical"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+      <Button
+        android:id="@+id/teaboy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teaboy1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="200dip"
+        android:scaleType="fitCenter"
+        android:text="보이차"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teasik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teasik1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="220dip"
+        android:scaleType="fitCenter"
+        android:text="식혜"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teaacho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teaacho1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="130dip"
+        android:scaleType="fitCenter"
+        android:text="알코올성 음료"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teauul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teauul1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="200dip"
+        android:scaleType="fitCenter"
+        android:text="율무차"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teachocomilk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teachocomilk1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="178dip"
+        android:scaleType="fitCenter"
+        android:text="초코우유"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/coffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/coffee1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="220dip"
+        android:scaleType="fitCenter"
+        android:text="커피"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teacombu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teacombu1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="200dip"
+        android:scaleType="fitCenter"
+        android:text="콤부차"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/drinks1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="178dip"
+        android:scaleType="fitCenter"
+        android:text="탄산음료"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/teahong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/teahong1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="220dip"
+        android:scaleType="fitCenter"
+        android:text="홍차"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+    </LinearLayout>
+  </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
