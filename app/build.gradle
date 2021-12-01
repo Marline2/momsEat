@@ -6,11 +6,11 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.moms_eat"
+        applicationId "com.marline2.moms_eat"
         minSdk 22
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 4
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         minSdkVersion 22
@@ -19,11 +19,13 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            debuggable false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug{
             minifyEnabled false
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

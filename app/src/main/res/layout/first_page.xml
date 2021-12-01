@@ -51,13 +51,13 @@
 
     <Button
       android:id="@+id/egg"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/egg1"
       android:paddingRight="220dip"
       android:scaleType="fitCenter"
       android:text="계란"
-      android:textSize="20dp"
+      android:textSize="20sp"
       android:textStyle="bold"
       android:paddingLeft="40dip"
       android:gravity="center"
@@ -65,13 +65,13 @@
     ></Button>
     <Button
       android:id="@+id/meat"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/meat1"
       android:paddingRight="200dip"
       android:scaleType="fitCenter"
       android:text="소고기"
-      android:textSize="20dp"
+      android:textSize="20sp"
       android:textStyle="bold"
       android:paddingLeft="45dip"
       android:gravity="center"
@@ -106,13 +106,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
+    android:layout_marginStart="-21dp"
     android:layout_marginTop="24dp"
     android:fontFamily="@font/elice_regular"
     android:text="                      (회, 조개류, 날달걀 등)은 \n        식중독이나 장염에 대한 염려가 있으니\n        피해주세요!"
     android:textSize="18dp"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.402"
-    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintHorizontal_bias="0.02"
+    app:layout_constraintStart_toEndOf="@+id/imageView6"
     app:layout_constraintTop_toTopOf="@+id/view" />
 
   <TextView
@@ -127,8 +128,8 @@
     android:textSize="18dp"
     app:layout_constraintBottom_toBottomOf="@+id/textView7"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.201"
-    app:layout_constraintStart_toStartOf="parent" />
+    app:layout_constraintHorizontal_bias="0.04"
+    app:layout_constraintStart_toEndOf="@+id/imageView6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

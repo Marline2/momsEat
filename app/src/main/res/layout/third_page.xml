@@ -64,7 +64,7 @@
 
       <Button
         android:id="@+id/teaboy"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teaboy1"
@@ -78,7 +78,7 @@
 
       <Button
         android:id="@+id/teasik"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teasik1"
@@ -92,7 +92,7 @@
 
       <Button
         android:id="@+id/teaacho"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teaacho1"
@@ -106,7 +106,7 @@
 
       <Button
         android:id="@+id/teauul"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teauul1"
@@ -120,7 +120,7 @@
 
       <Button
         android:id="@+id/teachocomilk"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teachocomilk1"
@@ -134,7 +134,7 @@
 
       <Button
         android:id="@+id/coffee"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/coffee1"
@@ -148,7 +148,7 @@
 
       <Button
         android:id="@+id/teacombu"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teacombu1"
@@ -162,7 +162,7 @@
 
       <Button
         android:id="@+id/drinks"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/drinks1"
@@ -176,7 +176,7 @@
 
       <Button
         android:id="@+id/teahong"
-        android:layout_width="match_parent"
+        android:layout_width="410dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/teahong1"

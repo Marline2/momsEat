@@ -51,7 +51,7 @@
 
     <Button
       android:id="@+id/etcpill"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/etcpill1"
       android:paddingRight="200dip"
@@ -65,7 +65,7 @@
       ></Button>
     <Button
       android:id="@+id/cookie"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/cookie1"
       android:paddingRight="170dip"
@@ -80,7 +80,7 @@
 
     <Button
       android:id="@+id/choco"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/choco1"
       android:paddingRight="200dip"
@@ -95,7 +95,7 @@
 
     <Button
       android:id="@+id/etcice"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/etcice1"
       android:paddingRight="88dip"

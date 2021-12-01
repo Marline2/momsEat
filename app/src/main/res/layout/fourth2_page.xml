@@ -49,7 +49,7 @@
     app:layout_constraintTop_toBottomOf="@+id/toolbar">
     <Button
       android:id="@+id/gam"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/gam1"
       android:paddingRight="240dip"
@@ -64,7 +64,7 @@
 
     <Button
       android:id="@+id/pineapple"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/pineapple1"
       android:paddingRight="180dip"

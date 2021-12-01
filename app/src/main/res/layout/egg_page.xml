@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <include
+    android:id="@+id/toolbarback"
+    layout="@layout/toolbarback" />
+  <ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbarback"
+    tools:ignore="SpeakableTextPresentCheck">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/scroll">
+
+
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="35dp"
+      android:fontFamily="@font/elice_bold"
+      android:text="계란"
+      android:paddingBottom="20dp"
+      android:textAlignment="center"/>
+
+    <ImageView
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:background="@drawable/yes"
+      ></ImageView>
+
+    <ImageView
+      android:layout_width="200dp"
+      android:layout_height="180dp"
+      android:layout_gravity="center"
+      android:scaleType = "fitCenter"
+      android:src="@drawable/egg1"
+      android:paddingBottom="20dp"/>
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="18dp"
+      android:padding="20dp"
+      android:background="@drawable/border_layout"
+      android:fontFamily="@font/elice_regular"
+      android:layout_gravity="center"
+      android:text="우리 몸에 필요한 모든 \n 영양 성분이 들어있고, \n
+      특히 단백질이 풍부하여 \n 임산부 건강에 큰 도움이 됩니다. \n\n 또한, 콜린이라는 성분이 \n 태아의 뇌기능 향상에도 도움을 줍니다."
+      android:textAlignment="center"/>
+  </LinearLayout>
+
+</ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

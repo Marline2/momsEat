@@ -4,45 +4,141 @@
   <uses-permission android:name="android.permission.INTERNET"/>
   <application
     android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
+    android:icon="@mipmap/ic_moms"
     android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
+    android:roundIcon="@mipmap/ic_moms_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.Moms_Eat">
     <activity
-      android:name=".MainActivity"
+      android:name="com.marline2.moms_eat.MainActivity"
       android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".SubActivity"
+    <activity android:name="com.marline2.moms_eat.SubActivity"
       android:exported="true"/>
 
-    <activity android:name=".FirstPageActivity"
+    <activity android:name="com.marline2.moms_eat.FirstPageActivity"
       android:exported="true"/>
 
-    <activity android:name=".First2PageActivity"
+    <activity android:name="com.marline2.moms_eat.First2PageActivity"
       android:exported="true"/>
 
-    <activity android:name=".SecondPageActivity"
+    <activity android:name="com.marline2.moms_eat.SecondPageActivity"
       android:exported="true"/>
 
-    <activity android:name=".ThirdPageActivity"
+    <activity android:name="com.marline2.moms_eat.ThirdPageActivity"
       android:exported="true"/>
 
-    <activity android:name=".FourthPageActivity"
+    <activity android:name="com.marline2.moms_eat.FourthPageActivity"
       android:exported="true"/>
 
-    <activity android:name=".Fourth2PageActivity"
+    <activity android:name="com.marline2.moms_eat.Fourth2PageActivity"
       android:exported="true"/>
 
-    <activity android:name=".FifthPageActivity"
+    <activity android:name="com.marline2.moms_eat.FifthPageActivity"
       android:exported="true"/>
 
-    <activity android:name=".Fifth2PageActivity"
+    <activity android:name="com.marline2.moms_eat.Fifth2PageActivity"
       android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.EggPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.MeatPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.SweetpotatoPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.SeaPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.BrocoPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.ChgumPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.AboPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GunPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TomaPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.BananaPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.VerryPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.ChamPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.KiwiPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.ZapPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.HoduPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.YunaPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeaboyPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeasikPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeaachoPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeauulPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeachocomilkPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.CoffeePage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeacombuPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.DrinksPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.TeahongPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GamPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.PineapplePage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.EtcpillPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.CookiePage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.ChocoPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.EtcicePage"
+      android:exported="true"/>
+
+
+
   </application>
 
 </manifest>

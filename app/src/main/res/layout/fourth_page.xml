@@ -51,7 +51,7 @@
 
     <Button
       android:id="@+id/banana"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/banana1"
       android:paddingRight="200dip"
@@ -65,7 +65,7 @@
       ></Button>
     <Button
       android:id="@+id/verry"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/verry1"
       android:paddingRight="200dip"
@@ -80,7 +80,7 @@
 
     <Button
       android:id="@+id/cham"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/cham1"
       android:paddingRight="220dip"
@@ -95,7 +95,7 @@
 
     <Button
       android:id="@+id/kiwi"
-      android:layout_width="match_parent"
+      android:layout_width="410dp"
       android:layout_height="wrap_content"
       android:drawableLeft="@drawable/kiwi1"
       android:paddingRight="220dip"
