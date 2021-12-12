@@ -37,6 +37,17 @@
       android:textStyle="bold" />
 
   </androidx.appcompat.widget.Toolbar>
+  <ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar"
+    tools:ignore="SpeakableTextPresentCheck">
 
   <LinearLayout
     android:layout_width="match_parent"
@@ -48,6 +59,94 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
+    <Button
+      android:id="@+id/nockdu"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/nockdu1"
+      android:paddingRight="220dip"
+      android:scaleType="fitCenter"
+      android:text="녹두"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/greenice"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/greenice1"
+      android:paddingRight="88dip"
+      android:scaleType="fitCenter"
+      android:text="녹차맛 아이스크림"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/redbean"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/redbean1"
+      android:paddingRight="190dip"
+      android:scaleType="fitCenter"
+      android:text="붉은 팥"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/gumcandy"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/gumcandy1"
+      android:paddingRight="170dip"
+      android:scaleType="fitCenter"
+      android:text="사탕 &amp; 껌"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/ginger"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/ginger1"
+      android:paddingRight="220dip"
+      android:scaleType="fitCenter"
+      android:text="생강"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:paddingLeft="45dip"
+      android:gravity="center"
+      android:backgroundTint="@color/white"
+      ></Button>
+
+    <Button
+      android:id="@+id/aloe"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/white"
+      android:drawableLeft="@drawable/aloe1"
+      android:gravity="center"
+      android:paddingLeft="45dip"
+      android:paddingRight="200dip"
+      android:scaleType="fitCenter"
+      android:text="알로에"
+      android:textSize="20dp"
+      android:textStyle="bold"></Button>
 
     <Button
       android:id="@+id/etcpill"
@@ -110,5 +209,6 @@
 
 
   </LinearLayout>
+  </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

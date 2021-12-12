@@ -132,5 +132,38 @@ public class ThirdPageActivity extends AppCompatActivity {
             }
         });
 
+        Button GreenteaPage = (Button) findViewById(R.id.greentea);
+        TeahongPage.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ThirdPageActivity.this, GreenteaPage.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.in_right, R.anim.layout_view);
+                finish();
+            }
+        });
+
+        Button DuyuPage = (Button) findViewById(R.id.duyu);
+        TeahongPage.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ThirdPageActivity.this, DuyuPage.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.in_right, R.anim.layout_view);
+                finish();
+            }
+        });
+
+        Button EnergyPage = (Button) findViewById(R.id.energy);
+        TeahongPage.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ThirdPageActivity.this, EnergyPage.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.in_right, R.anim.layout_view);
+                finish();
+            }
+        });
+
     }
 }

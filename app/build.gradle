@@ -9,8 +9,8 @@ android {
         applicationId "com.marline2.moms_eat"
         minSdk 22
         targetSdk 31
-        versionCode 4
-        versionName "1.0.1"
+        versionCode 5
+        versionName "1.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         minSdkVersion 22

@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/abo1.xml" value="0.21979166666666666" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/aloe1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/banana1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/border_layout.xml" value="0.1" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/broco1.xml" value="0.21979166666666666" />
@@ -15,18 +16,27 @@
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/coffee1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/cookie1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/drinks1.xml" value="0.175" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/duyu1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/egg1.xml" value="0.153125" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/energy1.xml" value="0.35260416666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/etcice.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/etcice1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/etcpill1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/gam1.xml" value="0.38229166666666664" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/ginger1.xml" value="0.10625" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/greenice1.xml" value="0.10625" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/greentea1.xml" value="0.10625" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/gumcandy1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/gun1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/hodu1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21979166666666666" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/instant1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/kiwi.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/kiwi1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/meat1.xml" value="0.153125" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/nockdu1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/pineapple1.xml" value="0.21979166666666666" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/redbean1.xml" value="0.10625" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/sea1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/sweetpotato1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/teaacho1.xml" value="0.21979166666666666" />
@@ -44,7 +54,8 @@
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/drawable/zap1.xml" value="0.21979166666666666" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/font/font.xml" value="0.15833333333333333" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/abo_page.xml" value="0.22" />
-        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/aloe_page.xml" value="0.33645833333333336" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/banana_page.xml" value="0.22" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/broco_page.xml" value="0.22" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/cham_page.xml" value="0.33" />
@@ -54,7 +65,9 @@
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/coffee_page.xml" value="0.196875" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/cookie_page.xml" value="0.196875" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/drinks_page.xml" value="0.22" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/duyu_page.xml" value="0.22" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/egg_page.xml" value="0.22" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/energy_page.xml" value="0.33645833333333336" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/etcice_page.xml" value="0.196875" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/etcpill_page.xml" value="0.196875" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/fifth2_page.xml" value="0.2" />
@@ -65,13 +78,19 @@
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/fourth2_page.xml" value="0.22" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/fourth_page.xml" value="0.2" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/gam_page.xml" value="0.196875" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/ginger_page.xml" value="0.33645833333333336" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/greenice_page.xml" value="0.25" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/greentea_page.xml" value="0.2125" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/gumcandy_page.xml" value="0.33645833333333336" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/gun_page.xml" value="0.2" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/hodu_page.xml" value="0.25" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/kiwi_page.xml" value="0.2" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/layout_navigation_header.xml" value="0.22" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/list_page.xml" value="0.1" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/meat_page.xml" value="0.2" />
-        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/pineapple_page.xml" value="0.22" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/nockdu_page.xml" value="0.33645833333333336" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/pineapple_page.xml" value="0.25" />
+        <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/redbean_page.xml" value="0.33645833333333336" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/sea_page.xml" value="0.2" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/searchview.xml" value="0.33" />
         <entry key="..\:/AndroidApp/moms_Eat/app/src/main/res/layout/second_page.xml" value="0.18" />

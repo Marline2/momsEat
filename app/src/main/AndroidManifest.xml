@@ -137,6 +137,33 @@
     <activity android:name="com.marline2.moms_eat.EtcicePage"
       android:exported="true"/>
 
+    <activity android:name="com.marline2.moms_eat.DuyuPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GreenteaPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GreenicePage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GingerPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.NockduPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.GumcandyPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.AloePage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.RedbeanPage"
+      android:exported="true"/>
+
+    <activity android:name="com.marline2.moms_eat.EnergyPage"
+      android:exported="true"/>
+
 
 
   </application>

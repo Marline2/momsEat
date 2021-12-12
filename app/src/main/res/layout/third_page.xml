@@ -61,6 +61,32 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
+      <Button
+        android:id="@+id/greentea"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/greentea1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="220dip"
+        android:scaleType="fitCenter"
+        android:text="녹차"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+      <Button
+        android:id="@+id/duyu"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/duyu1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="220dip"
+        android:scaleType="fitCenter"
+        android:text="두유"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
 
       <Button
         android:id="@+id/teaboy"
@@ -101,6 +127,20 @@
         android:paddingRight="130dip"
         android:scaleType="fitCenter"
         android:text="알코올성 음료"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+      <Button
+        android:id="@+id/energy"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/energy1"
+        android:gravity="center"
+        android:paddingLeft="45dip"
+        android:paddingRight="130dip"
+        android:scaleType="fitCenter"
+        android:text="에너지 드링크"
         android:textSize="20dp"
         android:textStyle="bold"></Button>
 

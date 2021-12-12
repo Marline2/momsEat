@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <include
+    android:id="@+id/toolbarback"
+    layout="@layout/toolbarback" />
+  <ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="55dp"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbarback"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical"
+      android:layout_gravity="center_vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/scroll">
+
+
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:fontFamily="@font/elice_bold"
+        android:text="사탕 &amp; 껌"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"/>
+
+      <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/no"
+        ></ImageView>
+
+      <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:scaleType = "fitCenter"
+        android:src="@drawable/gumcandy1"
+        android:paddingBottom="20dp"/>
+
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:padding="20dp"
+        android:background="@drawable/border_layout"
+        android:fontFamily="@font/elice_regular"
+        android:layout_gravity="center"
+        android:text="껌과 사탕 1kg에는\n 약 500mg 전후의 카페인이 있으며,\n 커피의 카페인보다 높은 수치입니다.\n\n 물론 기준은 1kg이므로\n 알아두면 좋습니다."
+        android:textAlignment="center"/>
+    </LinearLayout>
+
+  </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
